@@ -1,37 +1,28 @@
-# 01.py
-code penilaian rata rata grade keterangan lulus dan tidak lulus 
+### MENGENAL VARIABEL
+## VARIABEL ADALAH TEMPAT MENYIMPAN DATA, DATA TERSEBUT BISA BERUPA INTEGER, FLOAT, STRING, BOOLEAN
 
-    while True:
-    
-    print("====sistem penilaian mahasiswa====")
-    nama = input("masukan nama : ")
-    tugas = int(input("tugas : "))
-    kuis = int(input("kuis : "))
-    uts = int(input("uts : "))
-    uas = int(input("uas : "))
-    
-    rata_rata = (tugas + kuis + uts + uas)/ 4
-    print("nama : ", nama)
-    print("nilai Rata-rata : ", rata_rata)
+## MENARU / ASSIGNMENT NILAI (PROSES MEMBERIKAN NILAI KE VARIABEL)
+a = 15
+x = 5
+panjang = 3000
 
-    if rata_rata>= 85:
-       print("grade : A")
-    elif rata_rata >=  70:
-        print("grade : B")
-    elif rata_rata >= 55:
-        print("grade : C")
-    elif rata_rata >= 45:
-        print("grade : D")
-    else :
-        print("grade : E")
+## PEMANGGILAN PERTAMA
+print("nilai a : ", a)
+print("nilai b : ", x)
+print("nilai panjang : ",  panjang)
 
-    
-    if rata_rata > 55:
-        print("lulus")
-    else:
-        print("tidak lulus")
+## PENAMAAN
+nilai_y = 15 # untuk variabel harus satu kata jika memakai dua kata harus menggukan underscore
+nilaiZ = 20.5
+juta10 = 100000000 # variabel di python tidak bisa diawali dengan angka 
 
-    ulang = input("apakah anda ingin mengulang program? (YA/TIDAK): ")
-    if ulang != 'ya':
-        print("===program selesai. syukron===")
-        break
+## PEMANGGILAN KEDUA
+print("nilai a : ", a)
+a = 90
+print("nilai a : ", a)
+
+## ASSIGNMENT INDERECT (MEMBERIKAN NIALI VARIABEL DENGAN VARIABEL LAIN)
+b = a
+print("nilai b : ", b)
+print("data : ", b)
+print("- bertipe : ", type(b))
