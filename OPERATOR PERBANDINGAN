@@ -1,0 +1,27 @@
+# PERBANDINGAN
+n = 5
+x = 9
+
+# LEBIH BESAR
+x > n
+print('x > n :', x > n)
+
+# LEBIH KECIL
+x < n
+print('x < n :', x < n)
+
+# SAMA DENGAN
+x == n
+print('x == n :', x == n)
+
+# TIDAK SAMA DENGAN
+x != n
+print('x != n :', x != n)
+
+# LEBIH BESAR SAMA DENGAN
+x >= n
+print('x >= n :', x >= n)
+
+# LEBIH KECIL SAMA DENGAN
+x <= n
+print('x <= n :', x <= n)
