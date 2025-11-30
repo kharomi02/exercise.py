@@ -1,0 +1,48 @@
+# PENGISIAN NILAI
+a = 10
+print('a = 10 ->', a )
+
+# PENGISIAN DAN PENILAIAN
+a += 10
+print('a += 10 ->', a )
+
+# PENGISIAN DAN PENGURANGAN
+a -= 10
+print('a -= 10 ->', a )
+
+# PENGISIAN DAN PERKALIAN
+a *= 10
+print('a *= 10 ->', a )
+
+# PENGISIAN DAN PEMBAGIAN
+a /= 10
+print('a /= 10 ->', a )
+
+# PENGISIAN DAN SISA BAGI
+a %= 10
+print('a %= 10 ->', a )
+
+# PENGISIAN DAN SHIFT LEFT
+a = 10
+a <<= 2
+print('a <<= 10 ->', a )
+
+# PENGISIAN DAN SHIFT RIGHT
+a = 10
+a >>= 2
+print('a >>= 10 ->', a )
+
+# PENGISIAN DAN BITWISE AND
+a = 10
+a &= 2
+print('a &= 10 ->', a )
+
+# PENGISIAN DAN BITWISE OR
+a = 10
+a != 2
+print('a != 10 ->', a )
+
+# PENGISIAN DAN BITWISE XOR
+a = 10
+a ^= 2
+print('a ^= 10 ->', a )
