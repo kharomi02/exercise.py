@@ -1,0 +1,61 @@
+##ARRAY
+#aray 1 demensi
+angka = [10,30,20,50,40,60]
+print('nilai : ', angka [4])
+
+# menambahkan angka
+angka.append(70)
+print(angka)
+
+# menghapus angka
+angka.remove(20)
+print(angka)
+
+# mengubah data
+angka[1] = 90
+print(angka)
+
+# mencari data
+angka =[5, 10, 15]
+if 9 in angka:
+ print('Ditemukan')
+
+
+# aray 2 demensi
+x = [ [1,2,3],
+     [4,5,6],
+     [7,8,9]]
+print('nilai baris 2 kolom 3 : ', x[1][2])
+
+#aray multidimensi
+barang = [
+    [
+        ["A1","A2","A3"], 
+           ["B1","B2","B3"] 
+           ],
+           [
+               ["C1","C2","C3"],
+            ["D1","D2","D3"]
+            ]            
+            ]
+
+print(barang[1][1][2])
+
+angka = [10,20,30]
+for a in angka:
+  print(a)
+
+# menghitung Rata rata
+data = list(map(float, input("masukan angka-angka (pisahkan dengan spasi):").split()))
+rata_rata = sum(data) / len(data)
+print("Rata-rata =", rata_rata)
+
+# MENCARI NILAI TERBESAR DAN TERKECIL
+data =  list(map(float, input("masukan angka-angka(pisahkan dengan spasi): ").split()))
+print("nilai terbesar : ", max(data))
+print("nilai terkecil : ", min(data))
+
+#mengurutkan data
+data = list(map(int, input("masukan angka-angka(pisahkan spasi): ").split()))
+print("Ascending : ", sorted(data))
+print("descending : ", sorted(data, reverse = True))
