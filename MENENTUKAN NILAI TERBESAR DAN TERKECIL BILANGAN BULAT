@@ -1,0 +1,31 @@
+print("menentukan bilangan terbesar dan terkecil")
+a = int(input("masukan nilai :"))
+b = int(input("masukan nilai :"))
+c = int(input("masukan nilai :"))
+d = int(input("masukan nilai :"))
+e = int(input("masukan nilai :"))
+
+max = c
+min = c
+if b > max:
+    max = b
+if b < min:
+    min = b
+
+if a > max:
+    max = a
+if a < min:
+    min = a
+
+if d > max:
+    max = d
+if d < min:
+    min = d
+
+if e > max:
+    max = e
+if e < min:
+    min = e
+
+print("niali terbesar :", max)
+print("nilai terkecil :", min)
