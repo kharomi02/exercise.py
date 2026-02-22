@@ -1,0 +1,53 @@
+#1.CARA MEMBUAT STRING
+
+
+'''
+    1. dengan menggunakan singel quote '....'
+    2. dengan menggunakan double quote "...."
+'''
+
+data = 'menggunakan single quote'
+print(data)
+
+data = "menggunakan double "
+print(data)
+
+#2 mengguanakan tanda \ (backslash)
+# membuat tanda ' menjadi string
+
+print('ayo sholat jum\'at')
+
+# backlash
+print("c:\\user\\otong")
+
+#tab
+print("aku\t\t\tkamu, semakin jauh")
+
+#backspace
+print("aku \bkamu,deketan")
+
+#newline
+print("baris pertama.\nbaris kedua.")
+print("baris pertama.\rbaris kedua.")
+print("baris pertama.\r\nbaris kedua.")
+
+#3 string literal atau raw
+
+#hati hati
+print('c:\new folder')
+
+#menggunakan raw string
+print(r'c:\new folder')
+
+#multiline literal string
+print("""
+nama : yanto
+kelas : 2
+""")
+
+#multiline literal string dan raw
+print(r"""
+nama: yanto
+kelas: sd\new normal
+website: www.ucup.com/newID
+""")
